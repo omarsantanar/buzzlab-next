@@ -1,0 +1,22 @@
+node_modules/
+.next/
+.env
+.env.local
+*.db
+*.sqlite
+
+# Prisma
+prisma/*.db
+prisma/*.sqlite
+
+# Build output
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
